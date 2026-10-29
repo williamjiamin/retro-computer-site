@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Retro Computer — Privacy Policy</title><meta name="description" content="Retro Computer for iPhone, iPad and Mac — a museum of five period rooms and thirteen working retro desktops.">
+<style>
+:root{--ink:#22201c;--sub:#6b665d;--paper:#fbf8f1;--line:#ddd6c6;--accent:#1f6f5c}
+@media (prefers-color-scheme:dark){:root{--ink:#ece7dc;--sub:#a59f93;--paper:#16150f;--line:#38352d;--accent:#5cc4a6}}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Helvetica Neue",sans-serif}
+main{max-width:760px;margin:0 auto;padding:40px 16px 64px}h1{font-size:32px;line-height:1.2;margin:0 0 8px}h2{font-size:20px;margin:36px 0 8px;border-top:1px solid var(--line);padding-top:24px}
+a{color:var(--accent)}p.lead{color:var(--sub);font-size:18px;margin-top:0}nav{display:flex;gap:16px;flex-wrap:wrap;margin:0 0 28px;font-size:15px}
+ul{padding-left:20px}li{margin:4px 0}table{border-collapse:collapse;width:100%;font-size:14px;display:block;overflow-x:auto}td,th{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+code{font-size:14px}.apps{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px;padding:0;list-style:none}.apps li{border:1px solid var(--line);padding:10px 12px;margin:0}
+footer{color:var(--sub);font-size:14px;margin-top:48px;border-top:1px solid var(--line);padding-top:16px}
+</style></head><body><main>
+<nav><a href="./">Retro Computer</a><a href="./#support">Support</a><a href="./privacy-policy.html">Privacy Policy</a><a href="./#apps">More apps</a></nav>
+<h1 id="retro-computer--privacy-policy">Retro Computer — Privacy
+Policy</h1>
+<p><strong>Effective: 29 October 2026</strong></p>
+<p>Retro Computer is a single-user desktop app. It does not have a
+server, an account system, analytics, ads, or any first-party tracking.
+The short version: <strong>we don't see anything you do in the
+app.</strong></p>
+<h2 id="what-leaves-your-device">What leaves your device</h2>
+<p>The app connects only to public, opt-in endpoints:</p>
+<table>
+<thead>
+<tr>
+<th>Endpoint</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>history.muffinlabs.com</code></td>
+<td>"On This Day" feed for the Today window</td>
+</tr>
+<tr>
+<td><code>hn.algolia.com</code></td>
+<td>Hacker News front page for Tech Wire</td>
+</tr>
+<tr>
+<td><code>ipapi.co</code></td>
+<td>Approximate city + coordinates for weather</td>
+</tr>
+<tr>
+<td><code>api.open-meteo.com</code></td>
+<td>Current weather for those coordinates</td>
+</tr>
+<tr>
+<td>Your chosen AI provider</td>
+<td>Only if you enter an API key in Chooser. The default — a model built
+into the app — and the other local models (Apple Intelligence on macOS /
+iOS, Ollama on the Mac, any model you download) send nothing off your
+machine for chat</td>
+</tr>
+<tr>
+<td><code>huggingface.co</code> (and its CDN)</td>
+<td>Never for the built-in model, which ships inside the app. Only when
+you tap Download on another model in Chooser ▸ Local Model: the weights
+themselves. The request carries no identifier and says nothing about
+you; once the file is on your device, chatting with it reaches no
+network at all</td>
+</tr>
+</tbody>
+</table>
+<p>No request carries any identifier we could use to recognise you; the
+AI providers see whatever their own terms describe, which is why we
+recommend a local model (Apple Intelligence on the free tier, Ollama on
+the Mac) if you're privacy-sensitive.</p>
+<h2 id="what-stays-on-your-device">What stays on your device</h2>
+<ul>
+<li><strong>API keys</strong> — stored in the system Keychain.</li>
+<li><strong>The local model's free daily allowance</strong> — a date and
+a number: how many replies the on-device model gave you today, so the
+free allowance can start again tomorrow. Never a question, never an
+answer, never a time of day. <code>UserDefaults</code>.</li>
+<li><strong>Notes</strong> — JSON files in your Application Support
+directory.</li>
+<li><strong>Memos</strong> — JSON files in your Application Support
+directory.</li>
+<li><strong>Journal</strong> — one JSON file per day in your Application
+Support directory. It is read only on your device; nothing about it is
+sent anywhere, and nothing else in the app keeps a copy of what you
+wrote. The morning edition reads the same files to compute your streak
+and to unseal a time capsule from a past entry, all on the device.</li>
+<li><strong>Digitizer</strong> — works only on a picture you hand it,
+and never stores that picture. The result leaves the app only when you
+copy it or save it to a place you choose. Its settings (mode, ink, dots)
+are in <code>UserDefaults</code>.</li>
+<li><strong>Scrapbook clips, Snake high score, Settings</strong> —
+<code>UserDefaults</code>. The Scrapbook reads the clipboard only while
+its window is open on the Mac (never anything a password manager marks
+as secret), and on iPhone and iPad only when you tap its Paste button.
+Clips stay on the device.</li>
+<li><strong>Paintings</strong> — PNGs you save land in Application
+Support.</li>
+<li><strong>Downloaded models</strong> — the weights of any local model
+you download sit in the app's Caches folder
+(<code>Library/Caches/models/…</code>), so the system may reclaim them
+if the device runs out of room, and Chooser ▸ Local Model deletes them
+on request. The conversation you have with one never leaves the device:
+there is no request to make.</li>
+<li><strong>The Adding Machine's paper tape</strong> — one JSON file,
+<code>adding-machine.json</code>, in Application Support: the figures on
+the roll and the calculation in progress, so the roll is still there
+after a relaunch. TAPE tears it off and starts a fresh one.</li>
+<li><strong>Game saves</strong> — the Puzzle's tray and best move count
+(<code>puzzle.save.v1</code>), and Sprocket's age: when its egg was
+laid, its stage, and how many keys have been pressed since — a count,
+never which keys (<code>sprocket.growth.v1</code>). Both
+<code>UserDefaults</code>.</li>
+<li><strong>Arcade hi-scores</strong> — <code>UserDefaults</code> under
+<code>arcade.scores.v1</code>: four five-row tables keyed by game, plus
+the last initials the cabinet seeded. No network, no telemetry, no
+migration. Forgotten by hand-editing the key in Defaults, or by Control
+Panel's upcoming Forget button.</li>
+<li><strong>Sprocket's gift memory</strong> — only the kind (byte,
+picture, link, text, file) and the date of what you give Sprocket, never
+the thing itself: dragged items are never opened.
+<code>UserDefaults</code>; Control Panel ▸ Companion ▸ Forget gifts
+clears it.</li>
+<li><strong>Era choice, current shopfront registration, content-filter
+toggle</strong> — <code>UserDefaults</code>.</li>
+<li><strong>The morning edition's day counter</strong> —
+<code>UserDefaults</code> under <code>todayRitual.edition.v1</code>: the
+issue numbers you've already seen, so the desk never re-delivers the
+same paper. Nothing about what you wrote is in this file.</li>
+<li><strong>Wallpaper Foundry</strong> — the on/off flag
+(<code>wallpaper.foundry.onDesk</code>) and the cached pattern you cast,
+in <code>UserDefaults</code>. Patterns stay until you switch themes or
+use the Foundry's own erase.</li>
+<li><strong>The boot screen</strong> — the lines you kept on or off and
+any text edits, <code>UserDefaults</code>. The default six lines ship
+with the app.</li>
+<li><strong>Alarm clock</strong> — the next alarm time and the
+recurrence rule, in <code>UserDefaults</code>. The OS-level notification
+the alarm schedules is cleared when you remove it.</li>
+<li><strong>Trash</strong> — the items currently in the trash and the
+auto-undelete countdown, in <code>UserDefaults</code>. Emptying Trash
+removes them.</li>
+<li><strong>Voice &amp; push-to-talk toggles</strong> —
+<code>UserDefaults</code>. The toggle state only; recorded audio and the
+transcription never touch the filesystem.</li>
+</ul>
+<p>None of this is backed up to us because we don't have an "us". iCloud
+backup happens or not based on your OS settings.</p>
+<h2 id="voice-mode--the-microphone">Voice Mode &amp; the microphone</h2>
+<p>Push-to-talk uses the microphone only while you hold the Talk button,
+and the system asks for permission first. Speech is turned into text
+<strong>on your device</strong> whenever your system supports it
+(English does on modern Macs and iPhones). If on-device recognition is
+not available for your locale, Apple's speech service processes the
+audio under Apple's privacy terms — we never receive it either way.
+Spoken replies use the system speech synthesizer, entirely
+on-device.</p>
+<h2 id="sandbox--file-access">Sandbox &amp; file access</h2>
+<p>The Mac app runs in the macOS App Sandbox. The three entitlements it
+ships with are:</p>
+<ul>
+<li><code>com.apple.security.app-sandbox</code> — required by App
+Review.</li>
+<li><code>com.apple.security.network.client</code> — the news / weather
+feeds and any user-configured cloud AI provider.</li>
+<li><code>com.apple.security.files.user-selected.read-write</code> —
+Paint's "Open…" panel, the Library "browse a folder" picker, the
+Digitizer's Open and Export panels, and the optional Save panel.</li>
+</ul>
+<p>The app can read or write only to files and folders you explicitly
+pick in a system Open / Save dialog. It cannot touch anything you
+haven't selected. iOS is sandboxed by the OS, with no extra
+entitlements.</p>
+<h2 id="kids">Kids</h2>
+<p>Retro Computer is rated 17+ (Infrequent/Mild Mature/Suggestive
+Themes) to cover user-generated text flowing through any of the AI
+providers the user can configure. The app contains no advertising. There
+is no chat with strangers — the AI chat only reaches the provider you
+configure with your own key (or Apple's on-device model).</p>
+<h2 id="contact">Contact</h2>
+<p>Retro Computer is made by LIPAI WANG.</p>
+<ul>
+<li>Email: <a
+href="mailto:williamjiaminus@gmail.com">williamjiaminus@gmail.com</a>
+(or <a
+href="mailto:support@rippaxlabs.com">support@rippaxlabs.com</a>)</li>
+<li>Phone: +86 159 0667 8969</li>
+<li>Web: <a
+href="https://williamjiamin.github.io/retro-computer-site/">https://williamjiamin.github.io/retro-computer-site/</a></li>
+</ul>
+<p>This policy is the one that ships in the app's
+<code>PrivacyInfo.xcprivacy</code> ("NSPrivacyTracking: false", no
+collected data types, no tracking domains). If a future build adds a new
+endpoint, the manifest and this file are updated in the same change.</p>
+
+<footer>© 2026 LIPAI WANG · williamjiaminus@gmail.com · +86 159 0667 8969</footer>
+</main></body></html>

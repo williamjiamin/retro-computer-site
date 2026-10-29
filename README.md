@@ -1,6 +1,8 @@
 # Retro Computer
 
-Project page for **Retro Computer** by Rippax Labs — a retro-style desktop for iPhone, iPad and Mac with thirteen eras, the K-808 keyboard, and a private on-device assistant.
+Project page, support and privacy policy for **Retro Computer**, by LIPAI WANG,
+for iPhone, iPad and Mac.
 
-- [Privacy policy](PRIVACY.md)
-- [Support](SUPPORT.md)
+- Website: https://williamjiamin.github.io/retro-computer-site/
+- Privacy policy: https://williamjiamin.github.io/retro-computer-site/privacy-policy.html ([PRIVACY.md](PRIVACY.md))
+- Support: [SUPPORT.md](SUPPORT.md) — williamjiaminus@gmail.com · +86 159 0667 8969

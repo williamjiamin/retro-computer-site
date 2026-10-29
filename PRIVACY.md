@@ -1,6 +1,6 @@
 # Retro Computer — Privacy Policy
 
-**Effective: September 2026**
+**Effective: 29 October 2026**
 
 Retro Computer is a single-user desktop app. It does not have a
 server, an account system, analytics, ads, or any first-party
@@ -133,8 +133,11 @@ only reaches the provider you configure with your own key
 
 ## Contact
 
-Questions: `support@rippaxlabs.com`. Source:
-`https://github.com/williamjiamin/retro-computer`.
+Retro Computer is made by LIPAI WANG.
+
+- Email: williamjiaminus@gmail.com (or support@rippaxlabs.com)
+- Phone: +86 159 0667 8969
+- Web: https://williamjiamin.github.io/retro-computer-site/
 
 This policy is the one that ships in the app's
 `PrivacyInfo.xcprivacy` ("NSPrivacyTracking: false", no

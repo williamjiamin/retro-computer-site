@@ -1,14 +1,34 @@
 # Retro Computer — Support
 
-Retro Computer is a retro-style desktop for iPhone, iPad and Mac: thirteen eras to wear, the K-808 keyboard, and a private on-device assistant.
+Retro Computer is a retro desktop for iPhone, iPad and Mac. It opens in a 3D
+museum of five period rooms; step up to any computer and you are inside it, on
+one of thirteen working desktops from 1964 to 2024, with 40 original games, the
+K-808 keyboard and a private AI that runs on your device.
 
-**Support:** support@rippaxlabs.com
+## Contact
 
-**Common questions**
+- **Email:** williamjiaminus@gmail.com (or support@rippaxlabs.com)
+- **Phone:** +86 159 0667 8969
+- **Developer:** LIPAI WANG
 
-- *The assistant says Apple Intelligence is unavailable.* It runs fully on-device and needs Apple Intelligence enabled in Settings; on a Mac you can also point the Chooser at a local Ollama server. Cloud providers use your own API key and are part of Retro Computer Pro.
-- *What does Pro include?* All thirteen eras and their keyboards, cloud AI providers with your own key, and every era or pack added later. One purchase, no subscription; it works on iPhone, iPad and Mac.
-- *Restore a purchase:* open Eras, tap a locked era, then Restore — or About This Computer ▸ Restore Purchases.
-- *A hardware keyboard is attached and the on-screen keyboard is gone.* Tap the K-808 chip in the menu bar to bring it back, or use Control Panel ▸ Input.
+We answer within two working days.
 
-Privacy policy: [PRIVACY.md](PRIVACY.md)
+## Common questions
+
+- **The assistant.** A model is built into the app and answers with no network
+  at all. More open models download from Chooser ▸ Local Model. On a Mac the
+  Chooser also offers Apple Intelligence, a local Ollama server, or a cloud
+  provider with your own API key (Pro).
+- **Games.** Every desktop has a Games icon with that era's shelf; All eras
+  shows all 40. Tap a cover to play. On iPhone and iPad use the on-screen pad
+  (arrows, X and Z); on a Mac, the arrow keys with X and Z.
+- **What Pro includes.** The nine Pro eras, the Loft's and the Studio's
+  computers, unlimited replies from the on-device models (15 a day are free),
+  and on the Mac the cloud AI providers. One purchase, no subscription.
+- **Restore a purchase.** Open Eras, tap any era marked PRO, then Restore — or
+  About This Computer ▸ Restore.
+- **No sound.** Check Control Panel ▸ Sounds and, on iPhone, the silent switch.
+- **A hardware keyboard is attached and the on-screen keyboard is gone.** Tap
+  the K-808 chip in the menu bar, or use Control Panel ▸ Input.
+
+[Privacy policy](PRIVACY.md)
