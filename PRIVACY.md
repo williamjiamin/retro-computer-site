@@ -43,7 +43,10 @@ free tier, Ollama on the Mac) if you're privacy-sensitive.
   that picture. The result leaves the app only when you copy it or save
   it to a place you choose. Its settings (mode, ink, dots) are in
   `UserDefaults`.
-- **Scrapbook clips, Snake high score, Settings** — `UserDefaults`.
+- **Scrapbook clips, Snake high score, Settings** — `UserDefaults`. The
+  Scrapbook reads the clipboard only while its window is open on the Mac
+  (never anything a password manager marks as secret), and on iPhone and
+  iPad only when you tap its Paste button. Clips stay on the device.
 - **Paintings** — PNGs you save land in Application Support.
 - **Downloaded models** — the weights of any local model you download sit in
   the app's Caches folder (`Library/Caches/models/…`), so the system may
