@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="mTitle mDesc">
+<title id="mTitle">Five rooms of a computer museum</title>
+<desc id="mDesc">Original illustrated timeline of five symbolic rooms, progressing from older equipment to a modern studio.</desc>
+<rect width="1200" height="620" rx="38" fill="#173d35"/>
+<circle cx="1045" cy="120" r="175" fill="#265448" opacity=".55"/>
+<path d="M64 472 Q600 370 1136 472" stroke="#89bd99" stroke-width="11" fill="none" stroke-linecap="round" stroke-dasharray="3 24"/>
+<g fill="none" stroke="#a5c5a1" stroke-width="6">
+<rect x="58" y="136" width="195" height="310" rx="30"/>
+<rect x="281" y="136" width="195" height="310" rx="30"/>
+<rect x="504" y="136" width="195" height="310" rx="30"/>
+<rect x="727" y="136" width="195" height="310" rx="30"/>
+<rect x="950" y="136" width="195" height="310" rx="30"/>
+</g>
+<g fill="#e9eccd">
+<rect x="92" y="236" width="127" height="161" rx="8"/>
+<rect x="315" y="214" width="127" height="131" rx="13"/>
+<rect x="538" y="206" width="127" height="118" rx="8"/>
+<rect x="761" y="195" width="127" height="126" rx="13"/>
+<rect x="984" y="187" width="127" height="110" rx="12"/>
+</g>
+<g fill="#447363">
+<rect x="109" y="253" width="93" height="56" rx="4"/>
+<rect x="331" y="233" width="95" height="80" rx="7"/>
+<rect x="554" y="222" width="95" height="77" rx="6"/>
+<rect x="776" y="209" width="97" height="97" rx="8"/>
+<rect x="999" y="202" width="97" height="80" rx="7"/>
+</g>
+<g fill="#d7ddac">
+<path d="M112 270h48m-48 13h70" stroke="#d7ddac" stroke-width="6" stroke-linecap="round"/>
+<path d="M335 253h42m-42 17h61" stroke="#d7ddac" stroke-width="6" stroke-linecap="round"/>
+<rect x="569" y="239" width="63" height="18" rx="4"/>
+<circle cx="805" cy="251" r="22"/>
+<path d="m1017 260 20-33 20 33 20-20" stroke="#d7ddac" stroke-width="8" fill="none"/>
+</g>
+<g fill="#356456">
+<path d="M99 327h113l-12 19h-89Z"/><path d="M320 360h117l-14 16h-89Z"/>
+<path d="M544 345h116l-10 14h-96Z"/><path d="M768 348h113l-13 18h-90Z"/>
+<path d="M991 326h112l-11 17h-91Z"/>
+</g>
+<g fill="#ebf4dd" font-family="sans-serif" font-size="19" text-anchor="middle" font-weight="700">
+<text x="156" y="116">01</text><text x="379" y="116">02</text><text x="602" y="116">03</text><text x="825" y="116">04</text><text x="1048" y="116">05</text>
+<text x="156" y="530">1960s</text><text x="379" y="530">1980s</text><text x="602" y="530">1990s</text><text x="825" y="530">2000s</text><text x="1048" y="530">Today</text>
+</g>
+</svg>

@@ -1,0 +1,7 @@
+CC0 1.0 Universal — original asset dedication
+
+The original vector artwork and text fact sheet in assets/ are dedicated by
+this project's owner under CC0 1.0 Universal to the extent permitted by law.
+No image, logo, font, trademark, binary, or third-party reference was copied.
+
+License text: https://creativecommons.org/publicdomain/zero/1.0/legalcode

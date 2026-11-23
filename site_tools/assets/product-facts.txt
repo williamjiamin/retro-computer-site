@@ -1,0 +1,13 @@
+RETRO COMPUTER — PRODUCT FACT SHEET
+
+Museum rooms: 5
+Interactive desktops: 13
+Original games: 40
+Supported device categories: phone, tablet, desktop
+Core experience: walk-through computer museum with working desktops
+Tools described: keyboard, paint, terminal, notes, calendar
+Local assistant: built-in on-device model
+
+This fact sheet describes the current project-site narrative.
+It is not an application binary or a representation of installed software.
+This document was prepared as a private draft, not a release announcement.
