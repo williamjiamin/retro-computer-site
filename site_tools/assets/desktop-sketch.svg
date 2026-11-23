@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620" role="img" aria-labelledby="artTitle artDesc">
+<title id="artTitle">Illustrated desktop</title>
+<desc id="artDesc">Original isometric style desk, keyboard and glowing display rendered as simple geometric shapes.</desc>
+<rect width="960" height="620" fill="#e7e4d8"/>
+<circle cx="782" cy="118" r="65" fill="#d8e4cf"/>
+<path d="M0 460 480 300 960 465v155H0" fill="#c6d6c6"/>
+<path d="M108 449 464 356 831 463 488 559Z" fill="#806e59"/>
+<path d="M123 449 463 364 807 463 490 541Z" fill="#e1bd83"/>
+<rect x="290" y="94" width="380" height="310" rx="25" fill="#293e38"/>
+<rect x="310" y="113" width="340" height="224" rx="13" fill="#9fc9a4"/>
+<rect x="329" y="135" width="303" height="182" rx="7" fill="#173d36"/>
+<path d="M348 176h94m-94 34h190m-190 34h153" stroke="#d5f6c4" stroke-width="12" stroke-linecap="round"/>
+<circle cx="480" cy="370" r="10" fill="#c8d8b2"/>
+<path d="M440 406h80l36 59H404z" fill="#2f594c"/>
+<path d="M365 461 582 448 683 505 447 519Z" fill="#355b4d"/>
+<path d="M405 476 575 465m-133 22 174-9m-130 20 150-8" stroke="#d4e4c6" stroke-width="8" stroke-linecap="round"/>
+<path d="M218 440c12-43 31-63 63-61 40 3 60 40 50 80" fill="none" stroke="#b67545" stroke-width="20" stroke-linecap="round"/>
+<rect x="176" y="446" width="134" height="9" rx="5" fill="#655746"/>
+<path d="M181 455v24m122-24v24" stroke="#655746" stroke-width="7" stroke-linecap="round"/>
+<path d="M770 401c-44-57-62-110-53-158" stroke="#466e52" stroke-width="12" stroke-linecap="round" fill="none"/>
+<path d="M716 255c-58-8-67-57-57-93 36 4 75 39 57 93Zm5 23c15-62 63-79 101-71-7 36-41 83-101 71Z" fill="#588f67"/>
+</svg>

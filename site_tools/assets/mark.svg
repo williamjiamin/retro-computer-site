@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Abstract computer symbol">
+<rect width="64" height="64" rx="14" fill="#183f37"/>
+<rect x="11" y="13" width="42" height="31" rx="4" fill="#e9f6de"/>
+<path d="M18 25h10m-10 6h18" stroke="#326e59" stroke-width="3" stroke-linecap="round"/>
+<path d="M26 48h12m-16 5h20" stroke="#e9f6de" stroke-width="3" stroke-linecap="round"/>
+</svg>

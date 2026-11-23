@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "product": {
+    "name": "Retro Computer",
+    "tagline": "Five rooms. Thirteen desktops. A lifetime of ideas.",
+    "summary": "An interactive computer museum with working desktops, original games, creative tools, and a local assistant.",
+    "room_count": 5,
+    "desktop_count": 13,
+    "game_count": 40
+  },
+  "rooms": [
+    {"id": "machine-room", "era": "1960s", "name": "Machine Room", "summary": "A room built around paper, switches, and the first conversations with computers."},
+    {"id": "study", "era": "1980s", "name": "The Study", "summary": "A home-sized doorway into personal computing and playful exploration."},
+    {"id": "office", "era": "1990s", "name": "The Office", "summary": "Workspaces, icons, documents, and the expanding digital desktop."},
+    {"id": "loft", "era": "2000s", "name": "The Loft", "summary": "A change of pace as portable machines and creative tools become everyday objects."},
+    {"id": "studio", "era": "Today", "name": "The Studio", "summary": "Modern glass and familiar tools in the same walk-through museum."}
+  ],
+  "downloads": [
+    {
+      "id": "rooms-overview",
+      "path": "downloads/five-room-map.svg",
+      "label": "Five-room illustrated map",
+      "summary": "An original schematic illustration; not an in-app screenshot.",
+      "media_type": "image/svg+xml"
+    },
+    {
+      "id": "desktop-sketch",
+      "path": "downloads/desktop-sketch.svg",
+      "label": "Computer desk illustration",
+      "summary": "Original vector artwork for the showcase; not an in-app screenshot.",
+      "media_type": "image/svg+xml"
+    },
+    {
+      "id": "fact-sheet",
+      "path": "downloads/product-facts.txt",
+      "label": "Product fact sheet",
+      "summary": "A plain-text summary of the currently described product features.",
+      "media_type": "text/plain"
+    }
+  ]
+}
